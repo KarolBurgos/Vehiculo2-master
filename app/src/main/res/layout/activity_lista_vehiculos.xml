@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/actionModeSplitBackground"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="10dp"
+    card_view:cardUseCompatPadding="true">
+
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_x="45dp"
+            android:layout_y="14dp"
+            android:text="Vehiculos"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_clase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="4dp"
+            android:layout_y="50dp"
+            android:text="Clase"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/txt_Extrangero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="74dp"
+            android:text="Extrangero"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/txt_oficial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="4dp"
+            android:layout_y="104dp"
+            android:text="Oficial"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/txt_particular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="3dp"
+            android:layout_y="130dp"
+            android:text="Particular"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/txt_publico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="157dp"
+            android:text="Publico"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/txt_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="8dp"
+            android:layout_y="182dp"
+            android:text="Total"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/ed_clase"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_x="72dp"
+            android:layout_y="51dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/ed_extrangero"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:layout_x="74dp"
+            android:layout_y="77dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/ed_oficial"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_x="73dp"
+            android:layout_y="102dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/ed_particular"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_x="73dp"
+            android:layout_y="132dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/ed_publico"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_x="77dp"
+            android:layout_y="160dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_x="79dp"
+            android:layout_y="187dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+    </AbsoluteLayout>
+</android.support.v7.widget.CardView>
